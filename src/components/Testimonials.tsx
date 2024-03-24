@@ -1,5 +1,4 @@
 import { testimonials } from "../constants";
-import star from "../assets/star.svg";
 
 export default function Testimonials() {
   return (
@@ -27,7 +26,13 @@ export default function Testimonials() {
                 <p className="font-bold">{person.name}</p>
                 <div className="flex">
                   {Array.from({ length: person.rating }, (_, index) => {
-                    return <img key={index} src={star} className="size-6" />;
+                    return (
+                      <img
+                        key={index}
+                        src="/assets/star.svg"
+                        className="size-6"
+                      />
+                    );
                   })}
                 </div>
               </div>
