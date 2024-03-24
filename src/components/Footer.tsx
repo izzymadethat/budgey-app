@@ -57,7 +57,7 @@ export default function Footer() {
         <div>
           <p className="font-semibold underline">Resources</p>
           <ul>
-            {siteLinks.map(
+            {siteLinks?.map(
               (link: { title: string; path: string }, index: number) => (
                 <li key={index}>
                   <a
@@ -74,7 +74,7 @@ export default function Footer() {
         <div>
           <p className=" font-semibold underline">Legals</p>
           <ul>
-            {legalLinks.map(
+            {legalLinks?.map(
               (link: { title: string; path: string }, index: number) => (
                 <li key={index}>
                   <a
