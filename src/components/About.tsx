@@ -13,7 +13,7 @@ export default function About() {
         </p>
       </div>
       <div className="container max-w-md rounded-lg  shadow-md  flex justify-end">
-        <img src="/src/assets/images/money.jpg" alt="" />
+        <img src="/assets/images/money.jpg" alt="" />
       </div>
     </div>
   );

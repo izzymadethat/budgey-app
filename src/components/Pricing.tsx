@@ -11,7 +11,7 @@ export default function Pricing() {
       <div className="flex gap-6 lg:justify-center items-center mx-4 px-4">
         <img
           className="hidden md:inline-flex w-[350px]"
-          src="/src/assets/images/pricing.jpg"
+          src="/assets/images/pricing.jpg"
           alt=""
         />
         <div className="flex flex-col justify-center items-center lg:items-start">

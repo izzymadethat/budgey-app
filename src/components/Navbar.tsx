@@ -19,7 +19,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <a href="#">
             <img
-              src="/src/assets/images/logo.svg"
+              src="/assets/images/logo.svg"
               alt=""
               className="w-32 lg:w-48 cursor-pointer"
             />

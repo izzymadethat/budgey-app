@@ -48,10 +48,10 @@ export const tutorial = [
 ];
 
 export const companies = [
-  { name: "cnn", src: "/src/assets/images/companies/cnn.png" },
-  { name: "dave", src: "/src/assets/images/companies/dave.png" },
-  { name: "nerdwallet", src: "/src/assets/images/companies/nerdwallet.png" },
-  { name: "yahoo", src: "/src/assets/images/companies/yahoo.png" },
+  { name: "cnn", src: "/assets/images/companies/cnn.png" },
+  { name: "dave", src: "/assets/images/companies/dave.png" },
+  { name: "nerdwallet", src: "/assets/images/companies/nerdwallet.png" },
+  { name: "yahoo", src: "/assets/images/companies/yahoo.png" },
 ];
 
 export const testimonials = [
@@ -128,11 +128,11 @@ export const footerLinks = [
   },
   {
     legalLinks: [
-      { title: "Partnerships", path: "" },
-      { title: "Terms of Service", path: "" },
-      { title: "Privacy Policy", path: "" },
-      { title: "How we use cookies", path: "" },
-      { title: "Copyright Information", path: "" },
+      { title: "Partnerships", path: "#" },
+      { title: "Terms of Service", path: "#" },
+      { title: "Privacy Policy", path: "#" },
+      { title: "How we use cookies", path: "#" },
+      { title: "Copyright Information", path: "#" },
     ],
   },
 ];

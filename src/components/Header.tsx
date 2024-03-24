@@ -4,7 +4,7 @@ export default function Header() {
       <div className="flex flex-col items-center mt-6 lg:mt-20">
         <div className="max-w-3xl relative flex flex-col justify-center">
           <img
-            src="/src/assets/images/budge.png"
+            src="/assets/images/budge.png"
             alt=""
             className="w-80 lg:absolute lg:left-[75%]  lg:bottom-14 -z-10"
           />
