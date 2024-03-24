@@ -53,7 +53,7 @@ export default function Footer() {
 
   return (
     <footer className="py-6 border-t-green-300 border-t-8 min-h-[150px] bg-green-900 shadow-md text-green-100 ">
-      <div className="w-5/6 mx-auto flex items-start lg:justify-between">
+      <div className="w-5/6 mx-auto flex items-start justify-between">
         <div>
           <p className="font-semibold underline">Resources</p>
           <ul>
@@ -88,29 +88,35 @@ export default function Footer() {
             )}
           </ul>
         </div>
-        <div>
+        <div className="hidden lg:block">
           <p className=" font-semibold underline">Follow Budge!</p>
           <ul className="grid grid-cols-3 lg:grid-cols-12 gap-px lg:gap-2 mt-4">
             {socialLinks.map((link, index: number) => (
               <li key={index}>
-                <a
-                  href={link.path}
-                  className="size-16 font-light hover:underline"
-                >
-                  {link.icon}
-                </a>
+                <a href={link.path}>{link.icon}</a>
               </li>
             ))}
           </ul>
         </div>
       </div>
       <div className="max-w-7xl mx-auto my-4">
-        <hr />
+        {/* socials mobile version */}
+        <div className="flex flex-col justify-center items-center lg:hidden ">
+          <p className=" font-semibold underline">Follow Budge!</p>
+          <ul className="flex gap-2">
+            {socialLinks.map((link, index: number) => (
+              <li key={index}>
+                <a href={link.path}>{link.icon}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <hr className="w-80 mx-auto mt-6 lg:mx-0 lg:w-full" />
         <div className="flex flex-col justify-center lg:flex-row lg:justify-between items-center my-4">
           <a href="/">
             <img src="/src/assets/images/logo.svg" alt="" className="w-64" />
           </a>
-          <p className="text-[10px] text-green-300">
+          <p className="text-[10px] lg:text-sm text-green-300">
             Copyright &copy; {new Date().getFullYear()}. All rights for this
             prototype reserved.
           </p>
