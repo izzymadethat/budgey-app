@@ -3,9 +3,9 @@ import { tutorial } from "../constants";
 
 export default function Tutorial() {
   return (
-    <section className="mt-20 p-8 flex flex-col items-center">
+    <section className="mt-20 p-8 flex flex-col items-center" id="how-it-works">
       <h3 className="text-2xl text-center font-bold underline">How it Works</h3>
-      {tutorial.map((item, index) => (
+      {tutorial.map((item: { tip: string }, index: number) => (
         <div
           key={index}
           className="flex lg:justify-evenly items-center flex-shrink-0 space-x-2"

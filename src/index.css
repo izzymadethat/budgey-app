@@ -5,7 +5,8 @@
 @tailwind utilities;
 
 :root {
-  @apply bg-green-100/50;
+  @apply bg-green-100/50 scroll-p-48;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
