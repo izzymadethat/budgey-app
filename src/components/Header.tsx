@@ -29,7 +29,7 @@ export default function Header() {
           >
             Start for Free
           </a>
-          <a href="#" className="border py-3 px-4 mx-3 rounded-md">
+          <a href="#features" className="border py-3 px-4 mx-3 rounded-md">
             Learn more
           </a>
         </div>

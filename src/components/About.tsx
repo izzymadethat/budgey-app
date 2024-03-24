@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="flex justify-between items-center mt-20 p-12">
+    <div className="flex flex-col lg:flex-row justify-between items-center mt-6 p-8">
       <div className="max-w-3xl">
         <h2 className="text-4xl mb-4">Budge doesn&apos;t Judge</h2>
         <p className="max-w-xl">

@@ -46,3 +46,10 @@ export const tutorial = [
   { tip: "Allow Budge to get to know your finances" },
   { tip: "Say goodbye to the stress of logical budgeting" },
 ];
+
+export const companies = [
+  { name: "cnn", src: "/src/assets/images/companies/cnn.png" },
+  { name: "dave", src: "/src/assets/images/companies/dave.png" },
+  { name: "nerdwallet", src: "/src/assets/images/companies/nerdwallet.png" },
+  { name: "yahoo", src: "/src/assets/images/companies/yahoo.png" },
+];

@@ -3,7 +3,7 @@ import { features } from "../constants/index.js";
 
 export default function Features() {
   return (
-    <section className="mt-20">
+    <section className="mt-20" id="features">
       <h2 className="text-green-950 font-bold tracking-widest text-5xl text-center mb-8">
         Features
       </h2>
